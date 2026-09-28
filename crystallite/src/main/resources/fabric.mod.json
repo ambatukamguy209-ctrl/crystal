@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "crystallite",
+  "version": "${version}",
+  "name": "CrystalLite",
+  "description": "Client-side end crystal helper: instant local crystal removal on hit and optional placement pacing.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.crystallite.CrystalLite"]
+  },
+  "mixins": ["crystallite.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
